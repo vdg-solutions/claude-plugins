@@ -9,11 +9,20 @@
     {
       "name": "memctl",
       "description": "Zero-config persistent memory for Claude Code via memctl vault CLI",
-      "source": "github:vdg-solutions/memctl-releases",
-      "path": "plugins/memctl-claude",
-      "version": "1.2.0",
+      "author": {
+        "name": "vdg-solutions",
+        "url": "https://github.com/vdg-solutions/memctl-releases"
+      },
       "category": "memory",
-      "tags": ["memory", "vault", "obsidian", "context"]
+      "tags": ["memory", "vault", "obsidian", "context"],
+      "version": "1.2.0",
+      "homepage": "https://github.com/vdg-solutions/memctl-releases",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vdg-solutions/memctl-releases.git",
+        "path": "plugins/memctl-claude",
+        "ref": "master"
+      }
     }
   ]
 }
