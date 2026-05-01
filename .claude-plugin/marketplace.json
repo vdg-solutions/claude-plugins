@@ -1,0 +1,19 @@
+{
+  "name": "vdg-solutions",
+  "description": "VDG Solutions Claude Code plugins",
+  "owner": {
+    "name": "vdg-solutions",
+    "url": "https://github.com/vdg-solutions"
+  },
+  "plugins": [
+    {
+      "name": "memctl",
+      "description": "Zero-config persistent memory for Claude Code via memctl vault CLI",
+      "source": "github:vdg-solutions/memctl-releases",
+      "path": "plugins/memctl-claude",
+      "version": "1.2.0",
+      "category": "memory",
+      "tags": ["memory", "vault", "obsidian", "context"]
+    }
+  ]
+}
