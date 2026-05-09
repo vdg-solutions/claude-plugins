@@ -20,7 +20,7 @@
         "obsidian",
         "context"
       ],
-      "version": "1.7.0",
+      "version": "1.7.1",
       "homepage": "https://github.com/vdg-solutions/memctl-releases",
       "source": {
         "source": "git-subdir",
